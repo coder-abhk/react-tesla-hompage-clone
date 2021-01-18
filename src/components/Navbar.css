@@ -1,0 +1,60 @@
+.nav__bar{
+display: flex;
+flex-direction: row;
+position: fixed;
+width: 100%;
+padding: 1rem;
+z-index: 2;
+}
+
+.navbar__logo{
+    margin: 0 1rem;
+    height: 14px;
+    width: 75px;
+    vertical-align: middle;
+}
+
+.navbar__logo img{
+   height: 14px;
+   width: 100%;
+   object-fit: cover;
+}
+
+.navbar__center p a{
+    color: #282828;
+    text-decoration: none;
+}
+
+.navbar__center p a:hover{
+    text-decoration: underline;
+}
+
+.navbar__center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__center p{
+    margin: 0 1rem;
+    font-size: 14px;
+}
+
+.navbar__right{
+    display: flex;
+}
+
+.navbar__right p {
+    margin-right: 1rem;
+    font-size: 14px;
+}
+
+.navbar__right p a{
+   text-decoration: none;
+   color: #282828;
+
+}
+
+.navbar__right p a:hover{
+    text-decoration: underline;
+ }
